@@ -13,22 +13,21 @@
         }
         body {
             overflow: hidden; /* Prevent scrolling */
-            color: #333; /* Default text color */
+            color: #FFF; /* Default text color */
             padding: 20px; /* Padding around the content */
         }
         
         /* Navigation Styles */
         nav {
-            background-color: rgba(51, 51, 51, 0.7);
             padding: 15px;
             text-align: center;
             z-index: 1;
-            position: relative; /* Position relative for z-index to work */
+            position: relative;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
         }
         nav a {
             color: #FFF;
-            margin: 0 15px;
+            margin: 0 30px; /* Increased margin for more spacing between links */
             text-decoration: none;
             font-size: 18px;
             transition: color 0.3s ease; /* Smooth color transition */
@@ -39,33 +38,35 @@
 
         /* Section styles */
         .section {
-            padding: 40px 20px; /* Increased padding for better spacing */
+            padding: 40px 20px;
             position: relative;
             z-index: 1;
-            margin: 20px 0; /* Space between sections */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow to sections */
-            text-align: left; /* Align text to the left */
+            margin: 20px 0;
+            text-align: left;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
         }
 
         /* Headings Styles */
         h1 {
             font-size: 4em; /* Increased size for main heading */
             font-weight: bold; /* Make the main heading bold */
-            text-align: left; /* Left align the main heading */
+            text-align: left;
             margin-top: 20px;
-            color: #333; /* Darker color for contrast */
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for depth */
+            color: #FFF; /* Keep it white for visibility */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for depth and readability */
         }
         h2 {
             margin-bottom: 10px;
             font-size: 1.8em; /* Increased size for section headings */
             font-weight: bold;
             text-align: left;
-            color: #333;
+            color: #FFF;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for readability */
         }
         p {
             font-size: 1em;
-            color: #333;
+            color: #FFF;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for readability */
         }
 
         /* Responsive adjustments */
@@ -75,12 +76,12 @@
             }
             nav a {
                 font-size: 16px;
-                margin: 0 8px;
+                margin: 0 15px; /* Reduced margin for mobile */
             }
             .section {
-                padding: 30px; /* Adjust padding for mobile */
+                padding: 30px;
                 font-size: 16px;
-                margin: 10px 0; /* Less margin for mobile */
+                margin: 10px 0;
             }
         }
     </style>
@@ -117,4 +118,3 @@
     </div>
 </body>
 </html>
-
