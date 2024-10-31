@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Buying Under Pressure</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+    <style>
+        /* Internal CSS for styling */
+        body {
+            font-family: 'Arial', sans-serif; /* Change font family for better readability */
+            background-color: rgba(255, 159, 28, 0.9); /* Orange background with opacity */
+            color: #333; /* Dark text color for readability */
+            margin: 0;
+            padding: 20px; /* Padding around the content */
+        }
 
+        nav {
+            background-color: rgba(51, 51, 51, 0.7);
+            padding: 15px;
+            text-align: center;
+            z-index: 1;
+            position: relative; /* Position relative for z-index to work */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+        }
+
+        nav a {
+            color: #FFF;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+
+        nav a:hover {
+            color: #FF9F1A; /* Change color on hover */
+        }
+
+        h1 {
+            text-align: center; /* Center align the main heading */
+            margin-top: 20px; /* Margin at the top */
+            font-size: 2.5em; /* Increase font size for the heading */
+            color: #fff; /* White text color for the heading */
+        }
+
+        /* Team member styles */
+        .team-member {
+            background-color: #fff; /* White background for team members */
+            border-radius: 10px; /* Rounded corners */
+            padding: 15px; /* Padding inside each team member box */
+            margin: 10px 0; /* Margin between team members */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+            color: #333; /* Dark text color for team members */
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .team-member img {
+            border-radius: 50%; /* Make images round */
+            width: 100px; /* Set width */
+            height: 100px; /* Set height */
+            object-fit: cover; /* Crop images to fit */
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em; /* Smaller size for mobile */
+            }
+            nav a {
+                font-size: 16px;
+                margin: 0 8px;
+            }
+            .team-member {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ourteam.html">Our Team</a>
+        <a href="findings.html">Findings</a>
+        <a href="methodology.html">Methodology</a>
+    </nav>
+    <!-- Page Content -->
+    <h1>Our Team</h1>
+    <p>This page contains people who worked on this project.</p>
+
+    <!-- Team Members Section -->
+    <div class="team-member">
+        <img src="profilephotos/Aaina.jpg" alt="Aaina's photo">
+        <div>
+            <strong>Aaina Jindal</strong> - Data Researcher, Hypothesis Developer and Writer
+        </div>
+    </div>
+    <div class="team-member">
+        <img src="profilephotos/Divyanshi.JPEG" alt="Divyanshi's photo">
+        <div>
+            <strong>Divyanshi</strong> - Product Owner, Data Research Web Developer and Designer
+        </div>
+    </div>
+    <div class="team-member">
+        <strong>Muhammad Qasim</strong> - Data Visualization Engineer, and Embedder
+    </div>
+    <div class="team-member">
+        <strong>Noor</strong> - Data Visualization Analyst and Embedder
+    </div>
+    <div class="team-member">
+        <img src="profilephotos/Varsha.jpeg" alt="Varsha's photo">
+        <div>
+            <strong>Varsha</strong> - Researcher, Content Developer and Story Planner
+        </div>
+    </div>
+</body>
+</html>
