@@ -21,7 +21,7 @@
         }
         nav a {
             color: #FFF;
-            margin: 0 15px;
+            margin: 0 25px; /* Increased horizontal margin for more space */
             text-decoration: none;
             font-size: 18px;
         }
