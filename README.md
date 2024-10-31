@@ -30,10 +30,10 @@
         }
         /* Section styles */
         .section-orange-peel {
-            background-color: rgba(255, 159, 28, 0.8); /* Made sections slightly transparent */
+            background-color: rgba(255, 159, 28, 0.8); /* Make sections slightly transparent */
             padding: 20px;
             color: #FFF;
-            position: relative; /* Layer section above the background video */
+            position: relative;
             z-index: 1; /* Higher than video */
         }
         .section-hunyadi-yellow {
@@ -76,14 +76,10 @@
 </head>
 <body>
     <!-- Background Video -->
-    <iframe 
-        width="100%" 
-        height="100%" 
-        src="https://www.youtube.com/embed/pG-z0RJAugU?autoplay=1&mute=1&loop=1&playlist=pG-z0RJAugU&controls=0&showinfo=0&modestbranding=1" 
-        frameborder="0" 
-        allow="autoplay; encrypted-media" 
-        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
-    </iframe>
+    <video autoplay muted loop id="backgroundVideo" style="position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; z-index: -1;">
+    <source src="https://drive.google.com/uc?export=download&id=15JYRRPuIADxakTrrZxCFLidVU1diParK" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
     <!-- Navigation -->
     <nav>
         <a href="index.html">Home</a>
