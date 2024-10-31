@@ -72,6 +72,7 @@
         <a href="findings.html">Findings</a>
         <a href="methodology.html">Methodology</a>
     </nav>
+    <!-- Main Content -->
     <h1 style="font-size: 3em; text-align: center; margin-top: 20px;">Buying Under Pressure</h1>
     <!-- Orange Peel Section -->
     <div class="section-orange-peel">
@@ -100,76 +101,7 @@
     </div>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Team - Buying Under Pressure</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to a CSS file if you have one -->
-</head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="ourteam.html">Our Team</a>
-        <a href="findings.html">Findings</a>
-        <a href="methodology.html">Methodology</a>
-    </nav>
-    <!-- Page Content -->
-    <h1>Our Team</h1>
-    <p>This page contains people who worked on this project.</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Methodology - Buying Under Pressure</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="ourteam.html">Our Team</a>
-        <a href="findings.html">Findings</a>
-        <a href="methodology.html">Methodology</a>
-    </nav>
-    <!-- Page Content -->
-    <h1>Methodology</h1>
-    <p>Here is the type of methodology we used to create our data story.</p>
-    <p>More details to follow...</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Findings - Buying Under Pressure</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="ourteam.html">Our Team</a>
-        <a href="findings.html">Findings</a>
-        <a href="methodology.html">Methodology</a>
-    </nav>
-    <!-- Page Content -->
-    <h1>Findings</h1>
-    <p>We offer a range of services to help you navigate the housing market:</p>
-    <ul>
-        <li>Consultation with housing market experts</li>
-        <li>Guidance on financing and budgeting</li>
-        <li>Strategies for finding the right property</li>
-        <li>Workshops on first-time home buying</li>
-    </ul>
-</body>
-</html>
+
 
 
 
