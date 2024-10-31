@@ -51,6 +51,16 @@
             margin: 10px 0; /* Margin between team members */
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
             color: #333; /* Dark text color for team members */
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .team-member img {
+            border-radius: 50%; /* Make images round */
+            width: 100px; /* Set width */
+            height: 100px; /* Set height */
+            object-fit: cover; /* Crop images to fit */
         }
         
         /* Responsive adjustments */
@@ -61,6 +71,10 @@
             nav a {
                 font-size: 16px;
                 margin: 0 8px;
+            }
+            .team-member {
+                flex-direction: column;
+                text-align: center;
             }
         }
     </style>
@@ -79,10 +93,16 @@
 
     <!-- Team Members Section -->
     <div class="team-member">
-        <strong>Aaina Jindal</strong> - Data Researcher, Hypothesis Developer and Writer
+        <img src="Aaina.jpg" alt="Aaina's photo">
+        <div>
+            <strong>Aaina Jindal</strong> - Data Researcher, Hypothesis Developer and Writer
+        </div>
     </div>
     <div class="team-member">
-        <strong>Divyanshi</strong> - Product Owner, Data Research Web Developer and Designer
+        <img src="Divyanshi.JPEG" alt="Divyanshi's photo">
+        <div>
+            <strong>Divyanshi</strong> - Product Owner, Data Research Web Developer and Designer
+        </div>
     </div>
     <div class="team-member">
         <strong>Muhammad Qasim</strong> - Data Visualization Engineer, and Embedder
@@ -91,7 +111,10 @@
         <strong>Noor</strong> - Data Visualization Analyst and Embedder
     </div>
     <div class="team-member">
-        <strong>Varsha</strong> - Researcher, Content Developer and Story Planner
+        <img src="Varsha.jpeg" alt="Varsha's photo">
+        <div>
+            <strong>Varsha</strong> - Researcher, Content Developer and Story Planner
+        </div>
     </div>
 </body>
 </html>
