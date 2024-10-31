@@ -21,7 +21,7 @@
         }
         nav a {
             color: #FFF;
-            margin: 0 25px; /* Increased horizontal margin for more space */
+            margin: 0 15px;
             text-decoration: none;
             font-size: 18px;
         }
@@ -79,7 +79,7 @@
     <iframe 
         width="100%" 
         height="100%" 
-        src="https://www.youtube.com/embed/pG-z0RJAugU?autoplay=1&mute=1&loop=1&playlist=pG-z0RJAugU" 
+        src="https://www.youtube.com/embed/pG-z0RJAugU?autoplay=1&mute=1&loop=1&playlist=pG-z0RJAugU&controls=0&showinfo=0&modestbranding=1" 
         frameborder="0" 
         allow="autoplay; encrypted-media" 
         style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
