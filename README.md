@@ -50,10 +50,11 @@
     </style>
 </head>
 <body>
+    <h1 style="font-size: 3em; text-align: center; margin-top: 20px;">Buying Under Pressure</h1>
    <!-- Orange Peel Section -->
     <div class="section-orange-peel">
         <h2>Introduction</h2>
-        <p>Welcome to "Buying Under Pressure" – a guide to navigating Sydney's challenging housing market.</p>
+        <p>"Buying Under Pressure" – a guide to navigating Sydney's challenging housing market.</p>
     </div>
     <!-- Hunyadi Yellow Section -->
     <div class="section-hunyadi-yellow">
