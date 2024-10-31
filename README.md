@@ -5,81 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page - Buying Under Pressure</title>
     <style>
-        /* General body styling */
-        body {
+        /* General styling */
+        body, h1, h2, p {
             margin: 0;
             padding: 0;
+        }
+        body {
             overflow: hidden; /* Prevent scrolling */
         }
-        /* Navigation bar styling */
         nav {
-            background-color: rgba(51, 51, 51, 0.7); /* Make navigation semi-transparent */
+            background-color: rgba(51, 51, 51, 0.7);
             padding: 10px;
             text-align: center;
-            position: relative; /* Ensure navigation is above the background */
-            z-index: 1; /* Higher than video */
+            z-index: 1;
         }
         nav a {
             color: #FFF;
-            margin: 0 15px;
+            margin: 0 10px;
             text-decoration: none;
             font-size: 18px;
         }
-        nav a:hover {
-            text-decoration: underline;
-        }
         /* Section styles */
-        .section-orange-peel {
-            background-color: rgba(255, 159, 28, 0.8); /* Make sections slightly transparent */
-            padding: 20px;
-            color: #FFF;
-            position: relative;
-            z-index: 1; /* Higher than video */
-        }
-        .section-hunyadi-yellow {
-            background-color: rgba(255, 191, 105, 0.8);
-            padding: 20px;
-            position: relative;
-            z-index: 1;
-        }
-        .section-white {
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            color: #000;
-            position: relative;
-            z-index: 1;
-        }
-        .section-mint-green {
-            background-color: rgba(203, 243, 240, 0.8);
-            padding: 20px;
-            position: relative;
-            z-index: 1;
-        }
-        .section-light-sea-green {
-            background-color: rgba(46, 196, 182, 0.8);
+        .section {
             padding: 20px;
             color: #FFF;
             position: relative;
             z-index: 1;
         }
-        /* Text styling */
-        h2 {
-            margin: 0;
-            padding-bottom: 10px;
-            font-size: 24px;
-        }
-        p {
-            margin: 0;
-            font-size: 18px;
+        .orange { background-color: rgba(255, 159, 28, 0.8); }
+        .yellow { background-color: rgba(255, 191, 105, 0.8); }
+        .white { background-color: rgba(255, 255, 255, 0.9); color: #000; }
+        .mint { background-color: rgba(203, 243, 240, 0.8); }
+        .sea-green { background-color: rgba(46, 196, 182, 0.8); }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+                margin: 15px;
+                text-align: center;
+            }
+            nav a {
+                font-size: 16px;
+                margin: 0 8px;
+            }
+            .section {
+                padding: 15px;
+                font-size: 16px;
+            }
         }
     </style>
 </head>
 <body>
     <!-- Background Video -->
-  <video autoplay muted loop id="backgroundVideo" style="position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; z-index: -1;">
-    <source src="background-video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+    <video autoplay muted loop style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+        <source src="background-video.mp4" type="video/mp4">
+    </video>
     <!-- Navigation -->
     <nav>
         <a href="index.html">Home</a>
@@ -87,32 +67,29 @@
         <a href="findings.html">Findings</a>
         <a href="methodology.html">Methodology</a>
     </nav>
-    <h1 style="font-size: 3em; text-align: center; margin-top: 20px;">Buying Under Pressure</h1>
-    <!-- Orange Peel Section -->
-    <div class="section-orange-peel">
+    <!-- Content Sections -->
+    <h1 style="text-align: center; margin-top: 20px;">Buying Under Pressure</h1>
+    <div class="section orange">
         <h2>Introduction</h2>
         <p>"Buying Under Pressure" – a guide to navigating Sydney's challenging housing market.</p>
     </div>
-    <!-- Hunyadi Yellow Section -->
-    <div class="section-hunyadi-yellow">
+    <div class="section yellow">
         <h2>What Experts Are Saying</h2>
         <p>Insights from industry experts on the current state of Sydney's housing market.</p>
     </div>
-    <!-- White Section -->
-    <div class="section-white">
+    <div class="section white">
         <h2>4 Major Challenges</h2>
         <p>An overview of the primary challenges faced by first-time buyers and renters.</p>
     </div>
-    <!-- Mint Green Section -->
-    <div class="section-mint-green">
+    <div class="section mint">
         <h2>How It's Affecting People</h2>
         <p>Understanding the impact of the housing market crisis on people's lives and financial stability.</p>
     </div>
-    <!-- Light Sea Green Section -->
-    <div class="section-light-sea-green">
+    <div class="section sea-green">
         <h2>Solution</h2>
         <p>Exploring potential solutions and strategies to make homeownership more achievable.</p>
     </div>
 </body>
 </html>
+
 
