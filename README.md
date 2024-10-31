@@ -1,6 +1,6 @@
 # Buying Under Pressure
 
-**Here is the theme color of the website:**
+**INTRODUCTION**
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,13 +50,13 @@
 
 ---
 
-## Here is what expert said 
+## What are the experts saying 
 
 Sydney's housing market has been challenging, with skyrocketing prices and limited options, especially for first-time buyers. **Buying Under Pressure** explores the trends, challenges, and opportunities in the Sydney housing rental and buying scene. Dive in to understand the factors driving demand and the strategies that can make owning a home more achievable.
 
 ---
 
-### Topics We Cover
+### MAJOR 4 CHALLENGES PEOPLE FACE 
 
 - Current rental market trends in Sydney
 - Factors affecting housing affordability
@@ -65,3 +65,5 @@ Sydney's housing market has been challenging, with skyrocketing prices and limit
 - Insights into future housing developments
 
 Stay informed about the evolving housing market in Sydney and learn how to navigate it with confidence.
+
+### SOLUTION 
