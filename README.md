@@ -10,12 +10,6 @@
     <div style="width: 50px; height: 50px; background-color: #2EC4B6;"></div>
 </div>
 
-**Main Theme Colors:**
-- **Orange Peel** (#FF9F1C)
-- **Hunyadi Yellow** (#FFBF69)
-- **White** (#FFFFFF)
-- **Mint Green** (#CBF3F0)
-- **Light Sea Green** (#2EC4B6)
 
 ---
 
