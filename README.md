@@ -1,20 +1,23 @@
-# Buying Under Pressure
-
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>**INTRODUCTION**</title>
+    <title>Buying Under Pressure - Introduction</title>
     <style>
-        /* Add the CSS code here */
+        /* General body styling */
         body {
             background-color: #FFBF69;
             color: #000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
+        /* Section styles */
         .section-orange-peel {
             background-color: #FF9F1C;
             padding: 20px;
+            color: #FFF;
         }
         .section-hunyadi-yellow {
             background-color: #FFBF69;
@@ -23,6 +26,7 @@
         .section-white {
             background-color: #FFFFFF;
             padding: 20px;
+            color: #000;
         }
         .section-mint-green {
             background-color: #CBF3F0;
@@ -31,47 +35,46 @@
         .section-light-sea-green {
             background-color: #2EC4B6;
             padding: 20px;
+            color: #FFF;
+        }
+        /* Text styling */
+        h2 {
+            margin: 0;
+            padding-bottom: 10px;
+            font-size: 24px;
+        }
+        p {
+            margin: 0;
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
-
-    <!-- Your HTML structure goes here -->
-    <div class="section-orange-peel">Content with Orange Peel color background (#FF9F1C)</div>
-    <div class="section-hunyadi-yellow">Content with Hunyadi Yellow color background (#FFBF69)</div>
-    <div class="section-white">Content with White color background (#FFFFFF)</div>
-    <div class="section-mint-green">Content with Mint Green color background (#CBF3F0)</div>
-    <div class="section-light-sea-green">Content with Light Sea Green color background (#2EC4B6)</div>
-
-</body>
-</html>
-
----
-
-<!-- Orange section with "What are the experts saying" content -->
+   <!-- Orange Peel Section -->
     <div class="section-orange-peel">
-        <h2>What are the experts saying</h2>
-        <p>Sydney's housing market has been challenging, with skyrocketing prices and limited options, especially for first-time buyers. <strong>Buying Under Pressure</strong> explores the trends, challenges, and opportunities in the Sydney housing rental and buying scene. Dive in to understand the factors driving demand and the strategies that can make owning a home more achievable.</p>
+        <h2>Introduction</h2>
+        <p>Welcome to "Buying Under Pressure" – a guide to navigating Sydney's challenging housing market.</p>
     </div>
-
-    <!-- Additional sections -->
+    <!-- Hunyadi Yellow Section -->
     <div class="section-hunyadi-yellow">
-        <h3>Major Challenges People Face</h3>
-        <ul>
-            <li>Current rental market trends in Sydney</li>
-            <li>Factors affecting housing affordability</li>
-            <li>Government initiatives and regulations</li>
-            <li>Financial tips for prospective buyers</li>
-            <li>Insights into future housing developments</li>
-        </ul>
-        <p>Stay informed about the evolving housing market in Sydney and learn how to navigate it with confidence.</p>
+        <h2>What Experts Are Saying</h2>
+        <p>Insights from industry experts on the current state of Sydney's housing market.</p>
     </div>
-
-    <!-- Solution section (optional) -->
+    <!-- White Section -->
+    <div class="section-white">
+        <h2>4 Major Challenges</h2>
+        <p>An overview of the primary challenges faced by first-time buyers and renters.</p>
+    </div>
+    <!-- Mint Green Section -->
+    <div class="section-mint-green">
+        <h2>How It's Affecting People</h2>
+        <p>Understanding the impact of the housing market crisis on people's lives and financial stability.</p>
+    </div>
+    <!-- Light Sea Green Section -->
     <div class="section-light-sea-green">
-        <h3>Solution</h3>
-        <!-- Add solution content here -->
+        <h2>Solution</h2>
+        <p>Exploring potential solutions and strategies to make homeownership more achievable.</p>
     </div>
-
 </body>
 </html>
+
