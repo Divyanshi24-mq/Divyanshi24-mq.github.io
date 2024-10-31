@@ -76,8 +76,8 @@
 </head>
 <body>
     <!-- Background Video -->
-    <video autoplay muted loop id="backgroundVideo" style="position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; z-index: -1;">
-    <source src="https://drive.google.com/uc?export=download&id=15JYRRPuIADxakTrrZxCFLidVU1diParK" type="video/mp4">
+  <video autoplay muted loop id="backgroundVideo" style="position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%; z-index: -1;">
+    <source src="background-video.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
     <!-- Navigation -->
